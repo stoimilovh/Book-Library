@@ -58,7 +58,7 @@ function App(){
         const selectedSortOption = event.target.value;
         setSortOption(selectedSortOption);
 
-        const sortedBooks = sortBooks(books, selectedSortOption);
+        const sortedBooks = sortBooks(filteredBooks, selectedSortOption);
         setFilteredBooks(sortedBooks);
     };
 
