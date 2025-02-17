@@ -1,4 +1,4 @@
-.library{
+.library {
   max-width: 1140px;
   padding: 20px;
   font-family: inherit;
@@ -9,63 +9,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.search{
-  display: flex;
-}
-.search__input{
-  justify-content: center;
-  display: flex;
-}
-.search__button{
-  display: flex;
-  margin-left: 8px;
-}
-.sort__label{
-  margin-left: 3px;
-}
-.library__no-results{
-  margin-top: 1rem;
+
+.library__title {
   text-align: center;
-  font-size: 1rem;
-}
-.book__title {
-  font-weight: bold;
-}
-.book {
-  padding: 15px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.book:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 768px){
-  .search{
-    flex-direction: column;
-    align-items: center;
-
-  }
-  .library{
-    max-width: 90%;
-    margin-bottom: 10px;
-  }
-  .sort__label{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-  .sort__select {
-     width: 100%;
-     max-width: 100%;
-     box-sizing: border-box;
-   }
-
-}

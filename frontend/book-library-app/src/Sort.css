@@ -1,0 +1,18 @@
+.sort__label {
+    margin-left: 3px;
+}
+
+.sort__select {
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .sort__label {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .sort__select {
+        width: 100%;
+    }
+}
